@@ -1,0 +1,12 @@
+name: EphiriumBattlePass
+version: '1.0-SNAPSHOT'
+main: com.ephirium.ephiriumBattlePass.EphiriumBattlePass
+api-version: '1.21'
+depend: [Vault, PlaceholderAPI, Jobs]
+softdepend: [CoinsEngine, EconomyShopGUI-Premium]
+commands:
+  battlepass:
+    aliases: [bpa]
+  bpadmin:
+    description: Admin BattlePass
+  gsenpai:
